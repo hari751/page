@@ -1,0 +1,11 @@
+# Open a text file for writing
+with open('note.txt', 'w') as f:
+    
+    # Get the note text from the user
+    note = input('Enter your note: ')
+    
+    # Write the note to the file
+    f.write(note)
+    
+# Close the file
+f.close()
